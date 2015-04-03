@@ -1,97 +1,177 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>18dorm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="author" content="18dorm">
 
-    <title>18dorm</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="public/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="public/bootstrap-3.3.4-dist/css/bootstrap.min.css">-->
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="public/bootstrap-3.3.4-dist/css/bootstrap.min.css">-->
+
+    <!-- fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
   </head>
 
-  <body>
+<body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">18dorm</a>
+<!-- Navbar
+    ================================================== -->
+<div class="jumbotron masthead">
+  <div class="splash"> <img src="assets/img/home-banner-bg.jpg" alt="Banner" /> </div>
+  <div class="splash"> <img src="assets/img/home-banner-bg2.jpg" alt="Banner" /> </div>
+  <div class="splash"> <img src="assets/img/home-banner-bg3.jpg" alt="Banner" /> </div>  
+  <div class="nav-agency">
+    <div class="navbar navbar-static-top"> 
+      <!-- navbar-fixed-top -->
+      <div class="navbar-inner">
+        <div class="container"> 
+          <a class="brand" href="index.html"> <img src="assets/img/18dorm_logo.jpg" alt="Logo" class="img-circle" style="width:100px;height:95px;"></a>
+          <div id="main-nav">
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="index.html">Home</a> </li>
+                <li><a href="#about">Product</a></li>
+                <li><a href="#contact">Blog</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">产品</a></li>
-            <li><a href="#contact">博客</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    
-    <div class="jumbotron">
-      <div class="starter-template">
-          <!--        <h1>18dorm</h1> -->
-        <img src="asset/img/18dorm_logo.jpg" alt="18dorm" class="img-circle" style="width:100px;height:95px;">
-        <p class="lead">18dorm是由3个码农共同创建的开源社区。<br> 用技术改善生活
-        </p>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-    <h1 align="center">社区项目</h1>
-      <!-- Example row of columns -->
-      <div class="row">
-          <div class="col-md-4">
-          <h2>极客人</h2>
-          <p>极客人网站致力于帮助开源爱好者实现个人价值. </p>
-          </div>
-      </div>
+  <div class="container show-case-item">
+    <h1> 18dorm </h1>
+    <p> 18dorm是由3个码农共同创建的开源社区。<br> 用技术改善生活 </p>
+    <a href="work.html" class="bigbtn">View Our Work</a>
+    <div class="clearfix"> </div>
+  </div>
+    
+  <div class="container show-case-item">
+    <h1> 极客人 </h1>
+    <p> 极客人网站致力于帮助开源爱好者实现个人价值. <br> 用技术改善生活 </p>
+    <a href="work.html" class="bigbtn">View Our Work</a>
+    <div class="clearfix"> </div>
+  </div>
 
-      <hr>
-    </div> <!-- /container -->
+  <div id="banner-pagination">
+    <ul>
+      <li><a href="#" class="active" rel="0"> <img src="assets/img/slidedot-active.png" alt="" /></a></li>
+      <li><a href="#" rel="1"> <img src="assets/img/slidedot.png" alt="" /></a></li>
+      <!-- <li><a href="#" rel="2"> <img src="assets/img/slidedot.png" alt="" /></a></li> -->
+    </ul>
+  </div>
 
-    <div class="container">
-    <h1 align="center">社区成员</h1>
-      <!-- Example row of columns -->
+</div>
+  
+<div class="container">
+  <h1 align="center">社区项目</h1>
+  <hr class="soften">
+    <!-- Example row of columns -->
+    <div class="row">
         <div class="col-md-4">
-          <h2>Rosicky</h2>
+        <h2>极客人</h2>
+        <p>极客人网站致力于帮助开源爱好者实现个人价值. </p>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<div class="container">
+  <h1 align="center">社区成员</h1>
+  <hr class="soften">
+    <div class="row-fluid">
+      <!-- Example row of columns -->
+        <div class="span4">
+          <a class="" href="https://github.com/rosicky1985">
+            <img src="assets/member/rosicky.png" alt="rosicky" class="img-circle" style="width:100px;height:95px;">
+          </a>
+          <h2> <span class="firstword">rosicky</span></h2>
        </div>
 
-        <div class="col-md-4">
-          <h2>ronaldo</h2>
+        <div class="span4">
+          <a class="" href="https://github.com/ronaldo0903">
+            <img src="assets/member/ronaldo.png" alt="ronaldo" class="img-circle" style="width:100px;height:95px;">
+          </a>
+          <h2> <span class="firstword">ronaldo</span></h2>
        </div>
 
-       <div class="col-md-4">
-          <h2>peter</h2>
+       <div class="span4">
+        <a class="" href="https://github.com/peterfuture">
+          <img src="assets/member/peter.png" alt="peter" class="img-circle" style="width:100px;height:95px;">
+        </a>
+        <h2> <span class="firstword">&nbsp;peter-s</span></h2>
        </div>
+     </div>
+   <div>
+</div> <!-- /container -->
+  
+<hr class="soften">
+<footer>
+  <p align="center">&copy; 18dorm.cn 2015</p>
+</footer>
 
-      <hr>
-    </div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
 
-      
-    <hr>
+<script src="public/jquery1.11.2.min.js"></script>
+<script src="public/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
 
-    <footer>
-      <p align="center">&copy; 18dorm.cn 2015</p>
-    </footer>
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        var showCaseItems = $('.show-case-item').hide();
+        var splashes = $('.splash').hide();
+        
+        splashes.eq(0).show();
+        showCaseItems.eq(0).show();
+        
+        var prevIndex = -1;
+        var nextIndex = 0;
+        var currentIndex = 0;
+        $('#banner-pagination li a').click(function () {
+            nextIndex = parseInt($(this).attr('rel'));
 
+            if (nextIndex != currentIndex) {
+                $('#banner-pagination li a').html('<img src="assets/img/slidedot.png" alt="slide"/>');
+                $(this).html('<img src="assets/img/slidedot-active.png" alt="slide"/>');
+                currentIndex = nextIndex;
+                if (prevIndex < 0) prevIndex = 0;
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="public/jquery1.11.2.min.js"></script>
-    <script src="public/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+                splashes.eq(prevIndex).css({ opacity: 1 }).animate({ opacity: 0 }, 500, function () {
+                    $(this).hide();
+                });
+                splashes.eq(nextIndex).show().css({ opacity: 0 }).animate({ opacity: 1 }, 500, function () { });
 
+                showCaseItems.eq(prevIndex).css({ opacity: 1 }).animate({ opacity: 0 }, 500, function () {
+                    $(this).hide();
+                    showCaseItems.eq(nextIndex).show().css({ opacity: 0 }).animate({ opacity: 1 }, 200, function () { });
+                });
+
+                prevIndex = nextIndex;
+            }
+
+            return false;
+        });
+        
+    });
+</script>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+
+</body>
 </body>
 </html>
