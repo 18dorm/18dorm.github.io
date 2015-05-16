@@ -1,179 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>18dorm</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="18dorm">
 
+<head>
+  <meta charset="utf-8">
+  <title>18dorm:开源爱好者社区</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="18dorm">
 
-    <!-- Bootstrap core CSS -->
-    <!--<link rel="stylesheet" href="public/bootstrap-3.3.4-dist/css/bootstrap.min.css">-->
+  <link href="/statics/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/statics/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/statics/css/front-common.css" rel="stylesheet">
+  <link href="/statics/css/index.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/docs.css" rel="stylesheet">
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <!--<link rel="stylesheet" href="public/bootstrap-3.3.4-dist/css/bootstrap.min.css">-->
+  <style>
+    body {padding-top: 60px; }
+    @media (max-width: 979px){
+    body{ padding-top:0; }
+    }
+  </style>
 
-    <!-- fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-  </head>
+</head>
 
 <body>
 
-<!-- Navbar
-    ================================================== -->
-<div class="jumbotron masthead">
-  <div class="splash"> <img src="assets/img/home-banner-bg.jpg" alt="Banner" /> </div>
-  <!--  <div class="splash"> <img src="assets/img/home-banner-bg2.jpg" alt="Banner" /> </div> -->
-  <!--  <div class="splash"> <img src="assets/img/home-banner-bg3.jpg" alt="Banner" /> </div>  -->
-  <div class="nav-agency">
-    <div class="navbar navbar-static-top"> 
-      <!-- navbar-fixed-top -->
-      <div class="navbar-inner">
-        <div class="container"> 
-          <a class="brand" href="index.html"> <img src="assets/img/18dorm_logo.png" alt="Logo" class="img-circle" style="width:100px;height:95px;"></a>
-          <div id="main-nav">
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="index.html">Home</a> </li>
-                <li><a href="#about">Product</a></li>
-                <li><a href="#contact">Blog</a></li>
-              </ul>
-            </div>
-          </div>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="color: #000;padding: 3px 10px"> 导航栏</a> <span> </span>
+        <a class="brand text_bnb_strong bnb_middle" href="/" name="top">18dorm开源社区</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-left" style="margin-right:0;">
+            <li class="divider-vertical"></li>
+            <li class="dropdown "><a class="dropdown-toggle text_bnb_strong" data-toggle="dropdown" href="#"><i class="icon-wrench"></i> 社区项目<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                     <li><a href="/" class="text_bnb_strong"><i class="icon-hand-up"></i> 极客人</a></li>
+                     <li><a href="/"><i class="icon-fire"></i> dttv</a></li>
+                     <li class="divider">&nbsp;</li>
+                     <li><a href="/"><i class="icon-globe"></i> 合作伙伴专区</a></li>
+                </ul>
+            </li>
+    	      <li class="divider-vertical"></li>
+            <li><a href="/index/login" class="text_bnb_strong"><i class="icon-search"></i> 社区成员</a></li>
+            <li class="divider-vertical"></li>
+            <li class=""><a href="/project/projectlist" class="text_bnb_strong"><i class="icon-list-alt"></i> 社区论坛</a></li>
+            <li class="divider-vertical"></li>
+    	      <li class=""> <a href="/" class="text_bnb_strong"><i class="icon-hand-up"></i> 关于我们</a></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container show-case-item">
-    <h1> 18dorm </h1>
-    <p> 18dorm是由3个码农共同创建的开源社区。<br> 用技术改善生活 </p>
-    <a href="https://github.com/18dorm" class="bigbtn">View Our Work</a>
-    <div class="clearfix"> </div>
+
+
+
+
+
+
+  <div>
+    <p align="center">&copy; 18dorm.cn 2015</p>
   </div>
-  <!--   
-  <div class="container show-case-item">
-    <h1> 极客人 </h1>
-    <p> 极客人网站致力于帮助开源爱好者实现个人价值. <br> 用技术改善生活 </p>
-    <a href="work.html" class="bigbtn">View Our Work</a>
-    <div class="clearfix"> </div>
-  </div>
-  <div id="banner-pagination">
-    <ul>
-      <li><a href="#" class="active" rel="0"> <img src="assets/img/slidedot-active.png" alt="" /></a></li>
-      <li><a href="#" rel="1"> <img src="assets/img/slidedot.png" alt="" /></a></li>
-      <li><a href="#" rel="2"> <img src="assets/img/slidedot.png" alt="" /></a></li>
-    </ul>
-  </div>
-  -->
+          <!--
+          <ul class="nav pull-right">
+            <li><a href="/regist">注册</a></li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown"> <a class="dropdown-toggle" href="/index/login" data-toggle="dropdown">登录 <strong class="caret"></strong></a>
+                <div class="dropdown-menu" style="padding: 15px; padding-bottom:1em;">
+                  <form method="post" action="/index/login" accept-charset="UTF-8">
+                    <input style="margin-bottom: 15px;" type="text" placeholder="邮箱" id="head_username" name="info[email]">
+                    <input style="margin-bottom: 15px;" type="password" placeholder="密码" id="head_password" name="info[password]">
+                    <label class="string optional" for="user_remember_me">
+                      <input style="float: left; margin-right: 10px;" type="checkbox" name="info[remember]" id="remember-me" value="1">
+    					        <span>记住用户名密码</span>
+    				        </label>
+                    <input type="hidden" name="dosubmit" value="1">
+                    <input class="btn btn-block again-btn btn-blue" style="margin-top:1em;" type="submit" id="sign-in" value="登录">
+                    <label style="padding-top:1.3em; padding-bottom:0.2em;">
+                      <span>第三方登录：</span>
+                      <span>
+                        <a href="/index/qq_login" class="xieyi" target="_blank"><img src="/statics/images/icon/github.png" width="30" height="30"></a>
+                      </span>
+                    </label>
+                    <label>
+                      <span class="pull-left">还没有账号？<a style="color:#08c;" href="http://www.ycpai.com/index/register">注册</a></span>
+                      <span class="pull-right"><a href="javascript:head_get_pwd()" style="color:#08c;">找回密码</a></span></label>
+                  </form>
+                  </div>
+              </li>
+            </ul>
+          -->
 
-</div>
-  
-<div class="container">
-  <h1 align="center">社区项目</h1>
-  <hr class="soften">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-        <h2>极客人</h2>
-        <p>极客人网站致力于帮助开源爱好者实现个人价值. </p>
-        </div>
-    </div>
 
-</div> <!-- /container -->
+  <script src="statics/js/jquery1.11.2.min.js"></script>
+  <script src="statics/bootstrap/js/bootstrap.min.js"></script>
+  <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 
-<div class="container">
-  <h1 align="center">社区成员</h1>
-  <hr class="soften">
-    <div class="row-fluid">
-      <!-- Example row of columns -->
-        <div class="span4">
-          <a class="" href="https://github.com/rosicky1985">
-            <img src="assets/member/rosicky.png" alt="rosicky" class="img-circle" style="width:100px;height:95px;">
-          </a>
-          <h2> <span class="firstword">rosicky</span></h2>
-       </div>
-
-        <div class="span4">
-          <a class="" href="https://github.com/ronaldo0903">
-            <img src="assets/member/ronaldo.png" alt="ronaldo" class="img-circle" style="width:100px;height:95px;">
-          </a>
-          <h2> <span class="firstword">ronaldo</span></h2>
-       </div>
-
-       <div class="span4">
-        <a class="" href="https://github.com/peterfuture">
-          <img src="assets/member/peter.png" alt="peter" class="img-circle" style="width:100px;height:95px;">
-        </a>
-        <h2> <span class="firstword">&nbsp;peter-s</span></h2>
-       </div>
-     </div>
-   <div>
-</div> <!-- /container -->
-  
-<hr class="soften">
-<footer>
-  <p align="center">&copy; 18dorm.cn 2015</p>
-</footer>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
-<script src="public/jquery1.11.2.min.js"></script>
-<script src="public/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
-
-<!--
-<script type="text/javascript">
-    $(document).ready(function () {
-        
-        var showCaseItems = $('.show-case-item').hide();
-        var splashes = $('.splash').hide();
-        
-        splashes.eq(0).show();
-        showCaseItems.eq(0).show();
-        
-        var prevIndex = -1;
-        var nextIndex = 0;
-        var currentIndex = 0;
-        $('#banner-pagination li a').click(function () {
-            nextIndex = parseInt($(this).attr('rel'));
-
-            if (nextIndex != currentIndex) {
-                $('#banner-pagination li a').html('<img src="assets/img/slidedot.png" alt="slide"/>');
-                $(this).html('<img src="assets/img/slidedot-active.png" alt="slide"/>');
-                currentIndex = nextIndex;
-                if (prevIndex < 0) prevIndex = 0;
-
-                splashes.eq(prevIndex).css({ opacity: 1 }).animate({ opacity: 0 }, 500, function () {
-                    $(this).hide();
-                });
-                splashes.eq(nextIndex).show().css({ opacity: 0 }).animate({ opacity: 1 }, 500, function () { });
-
-                showCaseItems.eq(prevIndex).css({ opacity: 1 }).animate({ opacity: 0 }, 500, function () {
-                    $(this).hide();
-                    showCaseItems.eq(nextIndex).show().css({ opacity: 0 }).animate({ opacity: 1 }, 200, function () { });
-                });
-
-                prevIndex = nextIndex;
-            }
-
-            return false;
-        });
-        
-    });
-</script>
--->
-
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-
-</body>
 </body>
 </html>
