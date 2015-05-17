@@ -1,0 +1,124 @@
+html {
+font-family: Karla,'Hiragino Sans GB','Microsoft YaHei',微软雅黑,STHeiti,'WenQuanYi Micro Hei',Helvetica,Arial,sans-serif;
+color: #333;
+}
+html {
+font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+.main {
+-webkit-transition: -webkit-transform .5s;
+-moz-transition: -moz-transform .5s;
+transition: transform .5s;
+}
+.container {
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+display: block;
+}
+
+section {
+margin-bottom: 2em;
+}
+
+section .header.blue {
+background: #4a90e2;
+color: #fff;
+border-bottom-color: #4a90e2;
+}
+
+section .header {
+padding: .75em;
+border-radius: 6px 6px 0 0;
+text-align: center;
+border: 0;
+border-bottom: 1px solid #f1f1f1;
+}
+
+section p {
+line-height: 1.5em;
+}
+
+
+.billboard article {
+-webkit-transition: background .3s;
+-moz-transition: background .3s;
+transition: background .3s;
+}
+section article {
+padding: .5em 1em;
+}
+
+@media (min-width: 480px)
+.billboard .use-modal {
+cursor: pointer;
+}
+
+img.avatar.inline+.name {
+margin-left: .5em;
+}
+a {
+text-decoration: none;
+-webkit-transition: color .3s,background-color .3s;
+-moz-transition: color .3s,background-color .3s;
+transition: color .3s,background-color .3s;
+color: #333;
+}
+a {
+background-color: transparent;
+}
+
+img.avatar.inline {
+width: 1.5em;
+height: 1.5em;
+}
+img.avatar {
+width: 6em;
+height: 6em;
+border-radius: 50%;
+vertical-align: text-top;
+}
+img {
+border: 0;
+}
+
+.billboard .recommend {
+display: inline-block;
+font-size: .6em;
+width: 4em;
+text-align: center;
+padding: .5em 0;
+border-radius: 2px;
+border: 1px solid #777;
+color: #777;
+-webkit-transition: border .3s,color .3s,background .3s;
+-moz-transition: border .3s,color .3s,background .3s;
+transition: border .3s,color .3s,background .3s;
+}
+.float-right {
+float: right;
+}
+
+.invitation, .invite-comment {
+color: #777;
+}
+
+.tags {
+font-size: .8em;
+margin: .5em 0;
+}
+
+.tag {
+display: inline-block;
+padding: .2em .4em;
+border-radius: 6px;
+color: #777;
+background: #f1f1f1;
+}
